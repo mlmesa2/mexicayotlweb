@@ -1,6 +1,6 @@
 # Términos de Servicio — Mexicayotl
 
-**Última actualización:** [FECHA]
+**Última actualización:** 24-09-26
 
 Estos Términos de Servicio (en adelante, "los Términos") regulan el uso de la aplicación móvil **Mexicayotl — Simulador de Examen de Nacionalidad Mexicana** (en adelante, "la App").
 Al descargar, instalar o usar la App, usted acepta estos Términos. Si no está de acuerdo, no utilice la App.
