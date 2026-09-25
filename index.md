@@ -1,110 +1,115 @@
-# Términos de Servicio — Mexicayotl
+# Aviso de Privacidad — Mexicayotl
 
 **Última actualización:** 24-09-26
 
-Estos Términos de Servicio (en adelante, "los Términos") regulan el uso de la aplicación móvil **Mexicayotl — Simulador de Examen de Nacionalidad Mexicana** (en adelante, "la App").
-Al descargar, instalar o usar la App, usted acepta estos Términos. Si no está de acuerdo, no utilice la App.
+El presente Aviso de Privacidad describe cómo la aplicación móvil **Mexicayotl — Simulador de Examen de Nacionalidad Mexicana** (en adelante, "la App") trata la información de sus usuarios.
+## 1. Responsable del tratamiento
 
-## 1. Descripción del servicio
+El responsable del tratamiento de sus datos es **el equipo de desarrollo de Mexicayotl** (en adelante, "el Responsable" o "nosotros")
 
-La App es una herramienta educativa de práctica para el examen de conocimientos de historia y cultura general de México requerido en el trámite de carta de naturalización. Ofrece:
+Contacto para cualquier asunto relacionado con privacidad: **mexicayotlapp@mlmesa.com**.
 
-- Cuestionarios de opción múltiple organizados en niveles.
-- Un sistema de repaso espaciado basado en el método Leitner.
-- Una guía de estudio con tarjetas de preguntas y respuestas.
-- Traducción automática de preguntas a su idioma nativo.
-- Estadísticas de aprendizaje y recordatorios de estudio.
+## 2. Resumen
 
-## 2. Aviso importante: no somos una entidad gubernamental
+- La App **no requiere registro ni cuenta**. No le pedimos nombre, correo, teléfono, documentos de identidad ni información sobre su trámite de naturalización.
+- Su progreso de estudio (respuestas, niveles, tarjetas de repaso, preferencias) **se guarda únicamente en su dispositivo**.
+- La App se conecta a internet para descargar preguntas y material de estudio, mostrar publicidad (plan gratuito) y procesar suscripciones (plan Premium). Estos servicios de terceros pueden recopilar ciertos datos técnicos, descritos abajo.
+- Las traducciones se realizan **en su dispositivo**; el texto de las preguntas no se envía a ningún servidor para traducirse.
 
-**Mexicayotl es una aplicación independiente. No está afiliada, patrocinada, respaldada ni autorizada por la Secretaría de Relaciones Exteriores (SRE) ni por ninguna otra dependencia del Gobierno de México.**
+## 3. Datos que se tratan
 
-- Las preguntas de la App son **material de práctica** y no constituyen el examen oficial ni garantizan que coincidan con las preguntas que se apliquen en él.
-- Usar la App **no garantiza** aprobar el examen ni obtener la carta de naturalización.
-- La App no ofrece asesoría legal ni migratoria. Para información oficial sobre requisitos, citas y trámites, consulte siempre los canales oficiales de la SRE (https://sre.gob.mx).
-- Las **traducciones automáticas** pueden contener errores o imprecisiones. El examen oficial se presenta en español; en caso de discrepancia, prevalece la versión en español.
+### 3.1 Datos almacenados únicamente en su dispositivo
 
-## 3. Requisitos de uso
+Los siguientes datos se generan al usar la App y se guardan de forma local (base de datos y preferencias internas de la App):
 
-- Debe ser mayor de 18 años, o contar con la autorización y supervisión de su padre, madre o tutor.
-- Necesita un dispositivo Android compatible. Algunas funciones (descarga de contenido nuevo, publicidad, suscripciones, descarga de idiomas) requieren conexión a internet; los costos de datos corren por su cuenta.
-- La App no requiere crear una cuenta. Su progreso se guarda en su dispositivo; **si desinstala la App, borra sus datos o cambia de dispositivo, su progreso puede perderse** y no podemos recuperarlo.
+- **Preferencias:** idioma nativo elegido, modo de idioma del cuestionario, detección automática de idioma, preferencia de anuncios no personalizados, número de preguntas por sesión, horario y activación de recordatorios.
+- **Progreso de estudio:** niveles completados, respuestas seleccionadas, aciertos y errores, tiempo empleado, fecha y hora de cada intento, tarjetas del sistema de repaso Leitner, tarjetas de la guía de estudio revisadas y racha de días de estudio.
+- **Caché de contenido:** preguntas, material de la guía de estudio y traducciones ya descargadas o generadas.
 
-## 4. Plan gratuito y plan Premium
+Si su dispositivo tiene activada la **copia de seguridad de Android (Google)**, estos datos pueden incluirse en la copia de seguridad cifrada de su cuenta de Google, conforme a la configuración y políticas de Google. Puede desactivarla desde los ajustes de su dispositivo.
 
-### 4.1 Plan gratuito
+### 3.2 Datos técnicos que se transmiten al usar la App
 
-El plan gratuito permite usar la App sin costo, con las siguientes limitaciones, que pueden cambiar con el tiempo:
+Al conectarse a internet, la App y los servicios de terceros que integra pueden tratar:
 
-- Acceso a los primeros niveles de práctica.
-- Repaso Leitner limitado a la primera caja.
-- Acceso a una parte de las tarjetas de cada sección de la guía de estudio.
-- Visualización de anuncios.
+| Finalidad | Proveedor | Datos que pueden tratarse |
+|---|---|---|
+| Descarga de preguntas y guía de estudio | Supabase, Inc. (infraestructura del Responsable) | Dirección IP, datos técnicos de la conexión (p. ej., agente de usuario, fecha y hora) y los identificadores de preguntas ya asignadas en su dispositivo, para no repetirlas. No se envía ningún identificador personal. |
+| Verificación de integridad de la App | Google (Play Integrity API) | Información sobre el dispositivo, la App y su instalación desde Google Play, para confirmar que las solicitudes provienen de una copia legítima de la App. |
+| Publicidad (solo plan gratuito) | Google (AdMob) | Identificador de publicidad de Android, dirección IP, información del dispositivo y del sistema operativo, e interacciones con los anuncios. |
+| Suscripciones (plan Premium) | Google Play Billing y RevenueCat, Inc. | Identificador anónimo de usuario generado por la App, historial de compras y estado de la suscripción, información del dispositivo. Los datos de pago (tarjeta, etc.) los procesa exclusivamente Google Play; el Responsable **nunca** tiene acceso a ellos. |
+| Descarga de modelos de traducción | Google (ML Kit) | Datos técnicos necesarios para descargar el paquete de idioma. La traducción se realiza en el dispositivo. |
 
-### 4.2 Plan Premium (suscripción)
+### 3.3 Datos que NO recopilamos
 
-El plan Premium elimina los anuncios y desbloquea todos los niveles, el repaso Leitner completo y la guía de estudio completa. Se ofrece en modalidad **mensual** o **anual**, al precio indicado en la App y en Google Play al momento de la contratación (los precios incluyen los impuestos aplicables según Google Play).
+La App **no** solicita ni recopila: nombre, correo electrónico, número telefónico, domicilio, nacionalidad, situación migratoria, datos de documentos oficiales, ubicación precisa (GPS), contactos, fotografías, micrófono ni cámara.
 
-- **Pago:** se realiza a través de **Google Play**, con la forma de pago asociada a su cuenta de Google. Nosotros no recibimos ni almacenamos sus datos de pago.
-- **Prueba gratuita:** cuando se ofrezca, podrá disfrutar de un periodo de prueba gratuito (por ejemplo, 7 días). Si no cancela antes de que termine, se le cobrará automáticamente el plan elegido. La prueba gratuita se ofrece una sola vez por cuenta, conforme a las reglas de Google Play.
-- **Renovación automática:** la suscripción se renueva automáticamente al final de cada periodo, salvo que la cancele al menos 24 horas antes de la fecha de renovación.
-- **Cancelación:** puede cancelar en cualquier momento desde **Google Play › Pagos y suscripciones › Suscripciones**. Desinstalar la App **no** cancela la suscripción. Al cancelar, conservará el acceso Premium hasta el final del periodo ya pagado.
-- **Reembolsos:** se rigen por las políticas de reembolso de Google Play (https://support.google.com/googleplay/answer/2479637). Salvo lo que disponga la ley aplicable, no se otorgan reembolsos por periodos parciales.
-- **Restaurar compras:** si reinstala la App o cambia de dispositivo con la misma cuenta de Google, puede usar la opción "Restaurar Compras".
-- **Cambios de precio:** podemos modificar los precios; cualquier cambio se le notificará previamente conforme a las reglas de Google Play y no afectará el periodo ya pagado.
+**Datos personales sensibles:** la App no solicita datos personales sensibles. Tenga en cuenta que el simple uso de una herramienta de preparación para el examen de naturalización no se asocia a su identidad por parte del Responsable.
 
-## 5. Publicidad
+## 4. Finalidades del tratamiento
 
-El plan gratuito muestra anuncios de terceros (Google AdMob). No somos responsables del contenido de los anuncios ni de los productos o servicios que anuncian. El tratamiento de datos para publicidad se describe en nuestro Aviso de Privacidad.
+**Finalidades primarias (necesarias para el servicio):**
 
-## 6. Uso permitido
+1. Proporcionar las preguntas, niveles, guía de estudio y el sistema de repaso.
+2. Guardar su progreso y preferencias en su dispositivo.
+3. Enviar recordatorios de estudio y avisos de repaso mediante notificaciones locales (si usted las autoriza).
+4. Traducir preguntas a su idioma nativo.
+5. Gestionar y verificar su suscripción Premium.
+6. Proteger el servicio contra usos no autorizados o automatizados.
 
-Usted se compromete a usar la App solo para fines personales, educativos y no comerciales. Queda prohibido:
+**Finalidades secundarias:**
 
-- Copiar, extraer, descargar masivamente, redistribuir o revender el banco de preguntas, la guía de estudio u otro contenido de la App.
-- Descompilar, modificar, aplicar ingeniería inversa o eludir las medidas técnicas de la App (incluidas las que protegen el contenido Premium o verifican la integridad de la App), salvo en la medida en que la ley lo permita expresamente.
-- Acceder a los servidores de la App mediante medios automatizados (bots, scripts, *scraping*) o interferir con su funcionamiento.
-- Utilizar la App para cualquier fin ilícito.
+7. Mostrar publicidad en el plan gratuito, que puede ser personalizada según su actividad en otras aplicaciones y sitios, conforme a las políticas de Google.
 
-Podemos restringir el acceso a los servicios en línea de la App a quien incumpla estos Términos.
+Si no desea que sus datos se traten para publicidad personalizada, puede: (a) activar la opción **"Solo anuncios no personalizados"** en los Ajustes de la App; (b) restablecer o eliminar su ID de publicidad desde los ajustes de Android (**Ajustes › Google › Anuncios**); o (c) contratar el plan Premium, que no muestra anuncios. Negarse a esta finalidad no afecta el acceso al servicio.
 
-## 7. Propiedad intelectual
+## 5. Notificaciones
 
-La App, su diseño, código, logotipos, textos, organización del contenido y demás elementos son propiedad del Titular o de sus licenciantes y están protegidos por la legislación de propiedad intelectual. Se le otorga una licencia limitada, personal, no exclusiva, intransferible y revocable para usar la App conforme a estos Términos. Los datos históricos y culturales de dominio público no son objeto de apropiación exclusiva.
+Los recordatorios se programan y generan **localmente en su dispositivo**; no utilizamos un servidor de notificaciones push. Puede desactivarlos en los Ajustes de la App o del sistema operativo en cualquier momento.
 
-Si considera que algún contenido de la App infringe sus derechos, escríbanos a **mexicayotlapp@mlmesa.com**.
+## 6. Transferencias de datos
 
-## 8. Enlaces a sitios de terceros
+Los proveedores mencionados en la sección 3.2 actúan como encargados o como terceros independientes con sus propias políticas de privacidad, y pueden procesar datos fuera de México (principalmente en Estados Unidos). Estas transferencias son necesarias para prestar el servicio o se realizan con base en su aceptación del presente aviso. Puede consultar sus políticas en:
 
-La App puede incluir enlaces a sitios externos (por ejemplo, la guía oficial de la SRE). No controlamos ni somos responsables del contenido o las prácticas de esos sitios.
+- Google (AdMob, Play Integrity, ML Kit, Google Play): https://policies.google.com/privacy
+- Cómo usa Google la información de las apps que usan sus servicios: https://policies.google.com/technologies/partner-sites
+- RevenueCat: https://www.revenuecat.com/privacy
+- Supabase: https://supabase.com/privacy
 
-## 9. Disponibilidad y cambios del servicio
+## 7. Conservación y eliminación de datos
 
-Nos esforzamos por mantener la App disponible y su contenido actualizado y correcto, pero no garantizamos que funcione sin interrupciones ni errores, ni que el contenido esté libre de imprecisiones. Podemos agregar, modificar o retirar funciones, niveles o contenido en cualquier momento. Si detecta un error en alguna pregunta, le agradeceremos que nos lo informe.
+- **Datos locales:** permanecen en su dispositivo hasta que usted los elimine. Puede borrarlos en cualquier momento desde **Ajustes de Android › Apps › Mexicayotl › Almacenamiento › Borrar datos**, o desinstalando la App.
+- **Registros técnicos del servidor:** se conservan por el tiempo que determine la configuración del proveedor de infraestructura, con fines de seguridad y operación, y no se vinculan a su identidad.
+- **Datos de suscripción:** se conservan mientras sea necesario para gestionar la suscripción y cumplir obligaciones legales y fiscales.
 
-## 10. Limitación de responsabilidad
+## 8. Derechos ARCO y revocación del consentimiento
 
-En la máxima medida permitida por la ley aplicable, la App se proporciona **"tal cual" y "según disponibilidad"**. El Titular no será responsable por:
+Usted tiene derecho a **Acceder**, **Rectificar** y **Cancelar** sus datos personales, así como a **Oponerse** a su tratamiento, y a revocar el consentimiento otorgado.
 
-- El resultado de su examen de naturalización o de cualquier trámite migratorio.
-- Decisiones tomadas con base en el contenido o las traducciones de la App.
-- La pérdida del progreso almacenado en su dispositivo.
-- Daños indirectos, incidentales o consecuentes derivados del uso o la imposibilidad de uso de la App.
+Dado que la App no identifica a sus usuarios y la mayor parte de los datos se almacena solo en su dispositivo, usted puede ejercer estos derechos directamente borrando los datos de la App o modificando sus preferencias. Para cualquier solicitud adicional, envíe un correo a **mexicayotlapp@mlmesa.com** indicando:
 
-En cualquier caso, la responsabilidad total del Titular se limitará al monto que usted haya pagado por la suscripción en los 12 meses anteriores al hecho que dio origen a la reclamación. Nada en estos Términos limita los derechos que le otorga la Ley Federal de Protección al Consumidor u otra norma irrenunciable.
+1. Su nombre y un medio para comunicarle la respuesta.
+2. Descripción clara del derecho que desea ejercer y de los datos involucrados.
+3. Cualquier dato que facilite la localización de la información (por ejemplo, el identificador de su compra en Google Play, si su solicitud se relaciona con una suscripción).
 
-## 11. Privacidad
+Responderemos en un plazo máximo de **20 días hábiles** contados desde la recepción de su solicitud, y, de ser procedente, se hará efectiva dentro de los 15 días hábiles siguientes.
 
-El tratamiento de sus datos se rige por nuestro **Aviso de Privacidad**, disponible en **[URL DEL AVISO DE PRIVACIDAD]** y dentro de la App en Ajustes.
+Para derechos sobre los datos tratados por Google o RevenueCat, también puede dirigirse directamente a esos proveedores.
 
-## 12. Modificaciones a los Términos
+Si considera que su derecho a la protección de datos ha sido vulnerado, puede acudir ante la autoridad competente en materia de protección de datos personales en México.
 
-Podemos actualizar estos Términos. La versión vigente estará disponible en **[URL DE LOS TÉRMINOS]** con su fecha de actualización. Si los cambios son relevantes, se lo notificaremos en la App. Seguir usando la App después de la entrada en vigor de los cambios implica su aceptación.
+## 9. Menores de edad
 
-## 13. Terminación
+La App está dirigida a personas mayores de 18 años que se preparan para el examen de naturalización. No recopilamos intencionalmente datos de menores de edad. Si un menor utiliza la App, debe hacerlo con la supervisión de su padre, madre o tutor.
 
-Puede dejar de usar la App en cualquier momento desinstalándola (y, en su caso, cancelando su suscripción en Google Play). Podemos suspender o terminar su acceso a los servicios en línea si incumple estos Términos.
+## 10. Seguridad
 
-## 14. Contacto
+Las comunicaciones entre la App y los servidores se realizan mediante conexiones cifradas (HTTPS). Los datos locales están protegidos por el aislamiento de aplicaciones de Android. Ningún sistema es completamente infalible, pero aplicamos medidas razonables para proteger la información.
 
-Para dudas, comentarios o reportes sobre la App: **mexicayotlapp@mlmesa.com**.
+## 11. Cambios a este Aviso de Privacidad
+
+Podemos actualizar este aviso para reflejar cambios en la App o en la legislación. Publicaremos la versión vigente e indicaremos la fecha de la última actualización. Si los cambios son relevantes, se lo informaremos dentro de la App.
+
+## 12. Consentimiento
+
+Al descargar y utilizar la App, usted reconoce haber leído este Aviso de Privacidad y consiente el tratamiento de sus datos en los términos aquí descritos.
