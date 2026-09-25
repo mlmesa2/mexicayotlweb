@@ -95,11 +95,11 @@ En cualquier caso, la responsabilidad total del Titular se limitará al monto qu
 
 ## 11. Privacidad
 
-El tratamiento de sus datos se rige por nuestro **Aviso de Privacidad**, disponible en **[URL DEL AVISO DE PRIVACIDAD]** y dentro de la App en Ajustes.
+El tratamiento de sus datos se rige por nuestro **Aviso de Privacidad**, disponible en **https://mlmesa2.github.io/mexicayotlweb/** y dentro de la App en Ajustes.
 
 ## 12. Modificaciones a los Términos
 
-Podemos actualizar estos Términos. La versión vigente estará disponible en **[URL DE LOS TÉRMINOS]** con su fecha de actualización. Si los cambios son relevantes, se lo notificaremos en la App. Seguir usando la App después de la entrada en vigor de los cambios implica su aceptación.
+Podemos actualizar estos Términos. La versión vigente estará disponible en **https://mlmesa2.github.io/mexicayotlweb/terms/** con su fecha de actualización. Si los cambios son relevantes, se lo notificaremos en la App. Seguir usando la App después de la entrada en vigor de los cambios implica su aceptación.
 
 ## 13. Terminación
 
