@@ -36,11 +36,23 @@ Al conectarse a internet, la App y los servicios de terceros que integra pueden 
 |---|---|---|
 | Descarga de preguntas y guía de estudio | Supabase, Inc. (infraestructura del Responsable) | Dirección IP, datos técnicos de la conexión (p. ej., agente de usuario, fecha y hora) y los identificadores de preguntas ya asignadas en su dispositivo, para no repetirlas. No se envía ningún identificador personal. |
 | Verificación de integridad de la App | Google (Play Integrity API) | Información sobre el dispositivo, la App y su instalación desde Google Play, para confirmar que las solicitudes provienen de una copia legítima de la App. |
-| Publicidad (solo plan gratuito) | Google (AdMob) | Identificador de publicidad de Android, dirección IP, información del dispositivo y del sistema operativo, e interacciones con los anuncios. |
+| Publicidad (solo plan gratuito) | Google (AdMob) | Identificador de publicidad de Android, dirección IP,  ubicación aproximada (derivada de la dirección IP), información del dispositivo y del sistema operativo, interacciones con los anuncios, y registros de fallos y datos de diagnóstico del SDK de anuncios.|
 | Suscripciones (plan Premium) | Google Play Billing y RevenueCat, Inc. | Identificador anónimo de usuario generado por la App, historial de compras y estado de la suscripción, información del dispositivo. Los datos de pago (tarjeta, etc.) los procesa exclusivamente Google Play; el Responsable **nunca** tiene acceso a ellos. |
 | Descarga de modelos de traducción | Google (ML Kit) | Datos técnicos necesarios para descargar el paquete de idioma. La traducción se realiza en el dispositivo. |
 
-### 3.3 Datos que NO recopilamos
+### 3.3 Resumen por tipo de dato
+
+Este resumen coincide con la sección "Seguridad de los datos" de la ficha de la App en Google Play:
+
+| Tipo de dato | ¿Sale del dispositivo? | ¿Se comparte con terceros? | Finalidad | Origen |
+|---|---|---|---|---|
+| Ubicación aproximada | Sí | Sí | Publicidad, analíticas y prevención de fraudes | AdMob (a partir de la dirección IP) |
+| Interacciones con la App (anuncios) | Sí | Sí | Publicidad y analíticas | AdMob |
+| Registros de fallos y diagnóstico | Sí | Sí | Analíticas, seguridad y prevención de fraudes | AdMob, RevenueCat |
+| IDs de dispositivo o de otro tipo (ID de publicidad, ID anónimo de compras, verificación de integridad) | Sí | Sí | Funcionamiento de la App, publicidad, analíticas, seguridad y prevención de fraudes | AdMob, RevenueCat, Play Integrity |
+| Historial de compras | Sí, solo si contrata Premium | No | Funcionamiento de la App y gestión de la suscripción | Google Play Billing, RevenueCat |
+
+### 3.4 Datos que NO recopilamos
 
 La App **no** solicita ni recopila: nombre, correo electrónico, número telefónico, domicilio, nacionalidad, situación migratoria, datos de documentos oficiales, ubicación precisa (GPS), contactos, fotografías, micrófono ni cámara.
 
